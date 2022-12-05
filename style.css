@@ -52,7 +52,6 @@ body {
 .heroName {
     color: #fff;
     font-size: 2.5rem;
-    text-transform: uppercase;
 }
 
 .heroButton {
@@ -143,7 +142,7 @@ footer {
     text-align: center;
     color: #fff;
     margin: 10rem 0;
-    border-top: 1px solid #9277AC;
+    border-top: 1px solid #fff;
 }
 
 .copyright {
@@ -154,14 +153,41 @@ footer {
     display: block;
 }
 
-.filler {
+.me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     height: 80vh;
-    
+}
+
+
+.myPic {
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem;
+}
+
+.character {
+   font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.skills {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.blogFiller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 80vh;
 }
 
 
@@ -202,5 +228,30 @@ footer {
     
     .projectCard {
         max-width: 20%;
+    }
+    
+    .me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .myPic {
+    font-size: 2rem;
+    color: #fff;
+    padding: 7rem;
+    }
+
+    .character {
+   font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    }
+
+    .skills {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
     }
 }
